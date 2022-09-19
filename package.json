@@ -1,0 +1,23 @@
+{
+  "name": "hand-utils-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/hand-utils-tools.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:watch": "webpack --watch"
+  },
+  "keywords": [
+    "hand-utils-tools"
+  ],
+  "author": "Evan-Pei",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.13",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
