@@ -5,6 +5,7 @@
  * @Last Modified time : 2022/9/20
  **/
 const Webpack = require('webpack')
+const { CleanWebpackPlugin }= require('clean-webpack-plugin')
 const childProcess=require('child_process')
 const userInfo=require("./package.json")
 
@@ -18,6 +19,7 @@ function getProjectInfo() {
 }
 module.exports=function(){
     let plugins=[
+        new CleanWebpackPlugin(),
         new Webpack.BannerPlugin({
             banner:getProjectInfo(),
             exclude:[/vendor/,/manifest/,/common/]
