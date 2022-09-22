@@ -1,9 +1,12 @@
 ##使用方式
-import lHands from 'lhand-utils'
-Vue.prototype.lHands = lHands
+import EHands from 'Ehand-utils-tools'
+Vue.prototype.EHands = EHands
 
 1.节流的使用
-lHands.throttle(btnAClick, 2000)
+EHands.throttle(btnAClick, 2000)
 
 2.防抖的使用
-lHands.debounce(btnAClick, 2000)
+EHands.debounce(btnAClick, 2000)
+
+3.数据去重
+EHands.uniqueBySet(Array)
