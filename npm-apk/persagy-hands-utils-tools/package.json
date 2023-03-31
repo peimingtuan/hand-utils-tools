@@ -1,0 +1,20 @@
+{
+  "name": "persagy-hands-utils-tools",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "keywords": [
+    "persagy-hands-utils-tools"
+  ],
+  "author": "Evan-Pei",
+  "license": "ISC",
+  "dependencies": {
+
+  },
+  "files": [
+
+  ]
+}
