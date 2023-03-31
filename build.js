@@ -17,6 +17,8 @@ Webpack(Object.assign(getWebpackConf(),{mode:'production'}), function (err, stat
     setTimeout(function(){
         try {
             fse.copySync('./dist/hand-utils-tools.js', '../npm/persagy-hands-utils-tools/index.js')
+            fse.copySync('./package.json', '../npm/persagy-hands-utils-tools/package.json')
+            fse.copySync('./readme.md', '../npm/persagy-hands-utils-tools/readme.md')
             console.log('success!')
         } catch (err) {
             console.error(err)
